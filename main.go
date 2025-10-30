@@ -60,7 +60,7 @@ func main() {
 
 	// Koneksi ke PostgreSQL
 	var err error
-	connStr := "host=127.0.0.1 port=5432 user=postgres password=Blederan123@ dbname=todolist_db sslmode=disable"
+	connStr := "postgresql://postgres:ZdchCwkDVmKKpkiJKVOSFrTGFkpEDBVW@ballast.proxy.rlwy.net:27126/railway?sslmode=disable"
 	
 	db, err = sql.Open("postgres", connStr)
 	if err != nil {
