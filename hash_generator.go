@@ -6,7 +6,7 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
-func Savemain() {
+func GeneratePasswordHash() {
 	// Ganti password di sini
 	password := "admin123"
 	
