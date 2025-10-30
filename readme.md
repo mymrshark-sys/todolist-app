@@ -22,7 +22,7 @@ A full-stack todo list application built with Go, PostgreSQL, and Bootstrap 5.
 
 1. Clone the repository (if using Git):
 ```bash
-git clone <repository-url>
+git clone https://github.com/mymrshark-sys/todolist-app.git
 cd todolist-app
 ```
 
